@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function changeinbetweenseason() {
+        var selectedTime = document.getElementById("time").value;
+
+        document.getElementById("summer-fall-message").style.display = "none";
+        document.getElementById("fall-winter-message").style.display = "none";
+        document.getElementById("winter-spring-message").style.display = "none";
+        document.getElementById("spring-summer-message").style.display = "none";
+
+        if (selectedTime == "summer-fall-message") {
+            document.getElementById("summer-fall-message").style.display = "block";
+        }
+        else if (selectedTime == "fall-winter-message") {
+            document.getElementById("fall-winter-message").style.display = "block";
+        }
+        else if (selectedTime == "winter-spring-message") {
+            document.getElementById("winter-spring-message").style.display = "block";
+        }
+        else if (selectedTime == "spring-summer-message") {
+            document.getElementById("spring-summer-message").style.display = "block";
+        }
+    }
+
+</script>
+
+<body class="ipimg">
+    <div class="page text-white">
+        <h1 class="middle">inbetween seasons</h1>
+        <hr>
+        <p>inbetween seasons the times inbetween times ,but what is your inbetween time
+            <select name="" id="time" onchange="changeinbetweenseason()">
+                <option value="" selected disabled hidden>-Select your inbetween season-</option>
+                <option value="summer-fall-message">summer-fall</option>
+                <option value="fall-winter-message">fall-winter</option>
+                <option value="winter-spring-message">winter-spring</option>
+                <option value="spring-summer-message">spring-summer</option>
+            </select>.
+        </p>
+        <div id="summer-fall-message">
+            <p>summer-fall nice coming back to the cold and here is whats hot in fall. </p>
+            <img src="lemon.png" alt="lemon icon" class="lemon-pic">
+            <article>
+                <p class="flavor">lemonade</p>
+                <p class="price">0.50</p>
+            </article>
+            <article>
+                <p class="flavor">fruit</p>
+                <p class="price">1.00</p>
+            </article>
+            <img src="pumkin.png" alt="pumkin pie slice icon" class="pumkin-pic">
+            <article>
+                <p class="flavor">apple cider</p>
+                <p class="price">1.00</p>
+            </article>
+            <article>
+                <p class="flavor">pumkin pie slice</p>
+                <p class="price">3.00</p>
+            </article>
+        </div>
+        <div id="fall-winter-message">
+            <p>cold geting more cold adds up and so does these items.</p>
+            <img src="pumkin.png" alt="pumkin pie slice icon" class="pumkin-pic">
+            <article>
+                <p class="flavor">apple cider</p>
+                <p class="price">1.00</p>
+            </article>
+            <article>
+                <p class="flavor">pumkin pie slice</p>
+                <p class="price">3.00</p>
+            </article>
+            <img src="cocoa.png" alt="hot cocoa icon" class="cocoa-pic">
+            <article>
+                <p class="flavor">hot cocoa</p>
+                <p class="price">1.00</p>
+            </article>
+            <article>
+                <p class="flavor">cookies</p>
+                <p class="price">1.50</p>
+            </article>
+        </div>
+        <div id="winter-spring-message">
+            <p>cold with a little less cold ,we have just the thing.</p>
+            <img src="cocoa.png" alt="hot cocoa icon" class="cocoa-pic">
+            <p class="flavor">hot cocoa</p>
+            <p class="price">1.00</p>
+            </article>
+            <article>
+                <p class="flavor">cookies</p>
+                <p class="price">1.50</p>
+            </article>
+            <img src="flower.png" alt="flower icon" class="flower-pic">
+               <p class="middle">5 PACKS </p>
+               <article>
+                 <p class="flavor">peeps</p><p class="price">0.50</p>
+               </article><article>
+                 <p class="flavor">chocolate eggs</p><p class="price">1.00</p>
+               </article>
+        </div>
+        <div id="spring-summer-message">
+            <p>comeing to the warmth i see here take one of these.</p>
+            <img src="flower.png" alt="flower icon" class="flower-pic">
+            <article>
+                 <p class="flavor">hot cocoa</p><p class="price">1.00</p>
+               </article>
+               <article>
+                 <p class="flavor">cookies</p><p class="price">1.50</p>
+               </article>
+               <p class="middle">5 PACKS </p>
+               <article>
+                 <p class="flavor">peeps</p><p class="price">0.50</p>
+               </article><article>
+                 <p class="flavor">chocolate eggs</p><p class="price">1.00</p>
+               </article>
+            <img src="lemon.png" alt="lemon icon" class="lemon-pic">
+            <article>
+                <p class="flavor">lemonade</p>
+                <p class="price">0.50</p>
+            </article>
+            <article>
+                <p class="flavor">fruit</p>
+                <p class="price">1.00</p>
+            </article>
+        </div>
+        <p class="middle">back to <a href="year-round-stand.html">lobby.</a></p>
+    </div>
+
+
+
+</body>

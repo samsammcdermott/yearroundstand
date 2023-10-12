@@ -1,0 +1,171 @@
+.text-small {
+    font-size: .8rem;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.text-white{
+ color:white;
+}
+
+.page {
+    width: 80%;
+    background-color: #328fa8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.img {
+ background-image: url('bg.jpg');
+ background-repeat:no-repeat;
+ background-position: center center;
+ background-attachment:fixed;
+ background-size:100%;
+ font-family: sans-serif;
+}
+.middle{
+    text-align: center;
+}
+hr {
+height: 2px;
+background-color: black;
+border-color: black;
+}
+.rbimg {
+    background-image: url('rulebook.JPG');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:100%;
+    font-family: sans-serif;
+   } .rbtext-small{
+    font-size: .8rem;
+    font-family: sans-serif ;}
+#spring-message{
+        display:none;
+}
+#summer-message{
+    display:none;
+}
+#fall-message{
+    display:none;
+}
+#winter-message{
+    display:none;
+}
+#imbetween-message{
+    display:none;
+}
+
+a {
+    color: blue;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  a:hover {
+    color: darkblue;
+  }
+  
+  a:active {
+    color: white;
+  }
+ .spimg {
+        background-image: url('spring flowers.png');
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-attachment:fixed;
+        background-size:100%;
+        font-family: sans-serif;
+       }
+       .flavor {
+        text-align: left;
+        width: 49%;
+        display: inline-block;
+      }
+      .price {
+        text-align: right;
+        width: 50%;
+        display: inline-block;
+      }
+      .smrimg {
+        background-image: url('summer.jpg');
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-attachment:fixed;
+        background-size:100%;
+        font-family: sans-serif;
+       }
+       .fpimg {
+        background-image: url('fall.jpg');
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-attachment:fixed;
+        background-size:100%;
+       font-family: sans-serif;
+       }
+       .wpimg {
+        background-image: url('winter.jpg');
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-attachment:fixed;
+        background-size:100%;
+        font-family: sans-serif;
+       }
+       .ipimg {
+        background-image: url('imbetween.png');
+        background-repeat:no-repeat;
+        background-position: center center;
+        background-attachment:fixed;
+        background-size:100%;
+        font-family: sans-serif;
+       }
+       #summer-fall-message{
+        display:none;
+}
+#fall-winter-message{
+    display:none;
+}
+#winter-spring-message{
+    display:none;
+}
+#spring-summer-message{
+    display:none;
+}
+
+.lemon-pic{
+    height:50px;
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cocoa-pic{
+    height:75px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pumkin-pic{
+    height:75px;
+    width: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+}
+.flower-pic{
+    height: 100px;
+    width: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.red{
+    color:red;
+
+}

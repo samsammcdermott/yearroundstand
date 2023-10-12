@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function changeSeason() {
+        var selectedTime = document.getElementById("time").value;
+
+        document.getElementById("spring-message").style.display="none";
+        document.getElementById("summer-message").style.display="none";
+         document.getElementById("fall-message").style.display="none";
+         document.getElementById("winter-message").style.display="none";
+         document.getElementById("imbetween-message").style.display="none";
+        
+        
+         if(selectedTime == "spring")
+        {
+           document.getElementById("spring-message").style.display="block"; 
+        }
+        else if(selectedTime == "summer"){
+            document.getElementById("summer-message").style.display="block";
+        }
+        else if (selectedTime == "fall")
+        {
+            document.getElementById("fall-message").style.display="block";
+        }
+        else if (selectedTime == "winter")
+        {
+            document.getElementById("winter-message").style.display="block";
+        }
+        else if (selectedTime == "imbetween")
+        {
+            document.getElementById("imbetween-message").style.display="block";
+        }
+
+        
+    }
+
+
+</script>
+
+
+<body class="img">
+    <div class="page text-white">
+
+        <h1 class="middle">welcome</h1>
+
+
+        <hr>
+        <p class="middle">to me and my friends year round stand </p>
+        <p class="text-small">ps: a year round stand is a stand with stuff that changes year round</p>
+        <label for="year-time">what time of year is it</label>
+
+        <select name="year-time" id="time" onchange="changeSeason()">
+            <option value="" selected disabled hidden>-Select Season-</option>
+            <option value="spring">spring</option>
+            <option value="summer">summer</option>
+            <option value="fall">fall</option>
+            <option value="winter">winter</option>
+            <option value="imbetween">imbetween</option>
+        </select> this is importent because we have different stuff all year round.</p>
+        <div id="spring-message">
+            <p>spring ,nice here is our <a href="spring-page.html">menu</a> in spring.
+            <div class="text-small">ps:spring is a realy good season. </div>
+            </p>
+        </div>
+        <div id="summer-message">
+            <p>summer ,nice here is our <a href="summer-page.html">menu</a> in summer.
+            <div class="text-small">ps:summer is a realy good season. </div>
+            </p>
+        </div>
+        <div id="fall-message">
+            <p>fall ,nice here is our <a href="fall-page.html">menu</a> in fall.
+            <div class="text-small">ps:fall is a realy good season.</div>
+            </p>
+        </div>
+        <div id="winter-message">
+            <p>winter ,nice here is our <a href="winter-page.html">menu</a> in winter.
+            <div class="text-small">ps:winter is a realy good season. </div>
+            </p>
+        </div>
+        <div id="imbetween-message">
+            <p>imbetween seasons,nice here is our <a href="imbetween-page.html">menu</a> in the imbetween seasons.
+            <div class="text-small">ps:imbetween seasons are realy fun.</div>
+            </p>
+        </div>
+       <div class="middle">
+        <p>NOTICE: we will not alway have the food AND we only sell on saturdays</p>
+        <p> SORRY FOR THE INCONVINENCE</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
